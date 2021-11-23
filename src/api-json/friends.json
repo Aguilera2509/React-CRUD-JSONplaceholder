@@ -1,0 +1,39 @@
+{
+  "amigos": [
+    {
+      "id": 1,
+      "nombre": "Hengerbeth Mejias",
+      "edad": 18
+    },
+    {
+      "id": 2,
+      "nombre": "Ángel Granadino",
+      "edad": 18
+    },
+    {
+      "id": 3,
+      "nombre": "Isabel Martinez",
+      "edad": 18
+    },
+    {
+      "id": 4,
+      "nombre": "Gabriela Rivas",
+      "edad": 22
+    },
+    {
+      "id": 5,
+      "nombre": "Humberto Salazar",
+      "edad": 19
+    },
+    {
+      "id": 6,
+      "nombre": "José Aguilera",
+      "edad": 18
+    },
+    {
+      "id": 7,
+      "nombre": "Andruiws Carrasco",
+      "edad": "18"
+    }
+  ]
+}
