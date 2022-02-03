@@ -1,4 +1,4 @@
-//Add data on the table
+//Add data in the table
 export const CREATE = (data) =>{
     fetch("http://localhost:5000/amigos", {
         method: "POST",
@@ -15,7 +15,7 @@ export const CREATE = (data) =>{
     });
 }
 
-//Update data on the table
+//Update data in the table
 export const UPDATE = (data) =>{
     fetch(`http://localhost:5000/amigos/${data.id}`,{
         method:"PUT",
@@ -32,7 +32,7 @@ export const UPDATE = (data) =>{
     });
 }
 
-//delete data on the table
+//delete data in the table
 export const DELETE = (data) =>{
     fetch(`http://localhost:5000/amigos/${data.id}`,{
         method:"DELETE"

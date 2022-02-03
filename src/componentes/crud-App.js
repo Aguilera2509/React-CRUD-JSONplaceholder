@@ -27,7 +27,7 @@ export const CRUD_APP = () =>{
 
     const createUser = (data) =>{
         CREATE(data);
-        
+        data.id = list.length + 1;
         setList([...list,data]);
     };
 
